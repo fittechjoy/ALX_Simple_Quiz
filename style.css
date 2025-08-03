@@ -1,0 +1,70 @@
+/* style.css */
+
+/* Set up the body */
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+  padding: 0;
+  margin: 0;
+}
+header {
+  background-color: #222;
+  padding: 1rem 2rem;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 2rem;
+  margin: 0;
+}
+
+header li {
+  color: white;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-family: 'Spin Cycle', cursive;
+}
+<main class="main-content">
+  <article class="portfolio-article">
+    ...
+  </article>
+
+  <aside class="sidebar">
+    <p>placeholder to add comment thread later</p>
+  </aside>
+</main>
+.learner-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+}
+
+.learner-table th,
+.learner-table td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer a {
+  color: #ff9900;
+  text-decoration: none;
+}
