@@ -1,70 +1,48 @@
-/* style.css */
-
-/* Set up the body */
 body {
-  font-family: 'Source Sans Pro', sans-serif;
-  background-color: #fff;
-  color: #333;
-  line-height: 1.6;
-  padding: 0;
-  margin: 0;
-}
-header {
-  background-color: #222;
-  padding: 1rem 2rem;
+    font-family: Arial, sans-serif;
+    padding: 20px;
 }
 
-header ul {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  gap: 2rem;
-  margin: 0;
+#quiz-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-header li {
-  color: white;
+#quiz-question {
+    font-size: 20px;
+    margin-bottom: 20px;
 }
 
-header a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
+input[type="radio"] {
+    margin-right: 10px;
 }
 
-.logo {
-  font-size: 1.8rem;
-  font-family: 'Spin Cycle', cursive;
-}
-<main class="main-content">
-  <article class="portfolio-article">
-    ...
-  </article>
-
-  <aside class="sidebar">
-    <p>placeholder to add comment thread later</p>
-  </aside>
-</main>
-.learner-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 2rem;
+label {
+    margin-right: 30px;
+    cursor: pointer;
 }
 
-.learner-table th,
-.learner-table td {
-  padding: 12px;
-  border: 1px solid #ccc;
-  text-align: left;
-}
-footer {
-  background-color: #222;
-  color: white;
-  text-align: center;
-  padding: 1rem;
+#submit-answer {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
 }
 
-footer a {
-  color: #ff9900;
-  text-decoration: none;
+#submit-answer:hover {
+    background-color: #0056b3;
+}
+
+#feedback {
+    margin-top: 20px;
+    font-size: 18px;
 }

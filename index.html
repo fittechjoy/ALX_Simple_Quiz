@@ -1,92 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My First Portfolio</title>
-  <link href="base.css" rel="stylesheet">
-  <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Simple Quiz</title>
 </head>
 <body>
-
-  <header>
-    <ul>
-      <li class="logo">&#x1F3CB;</li>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="tweets.html">Tweets</a></li>
-    </ul>
-  </header>
-
-  <main>
-    <article>
-      <h1>Welcome to My First Portfolio Website</h1>
-      <p>Hi there! I'm Joy, and this is the beginning of my journey into web development. I'm passionate about creating meaningful digital experiences.</p>
-
-      <h2>About Me</h2>
-      <p>In 2024, I started a fitness journey that helped me heal and grow. Now, I'm combining that drive with tech to build my dream life.</p>
-<blockquote>“Discipline is choosing between what you want now and what you want most.”</blockquote>
-  <ul>
-    <li>🏃 Morning runs</li>
-    <li>🍳 Clean eating</li>
-    <li>🏋️ Strength training</li>
-  </ul>
-      <h3>My Tech Goals</h3>
-      <p>I'm currently learning front-end web development — HTML, CSS, and JavaScript. My goal is to become a creative and skilled developer who builds tools that help people grow.</p>
-<blockquote>“The best way to predict the future is to invent it.” – Alan Kay</blockquote>
-  <ul>
-    <li>💡 Build real-world projects</li>
-    <li>📚 Master front-end and back-end development</li>
-    <li>🌍 Use tech for social impact</li>
-  </ul>
-      <p>When I'm not coding, you'll find me at the gym, on road trips, or spending time with my boys, they are my biggest motivation.</p>
-
-      <a href="https://www.alxafrica.com" target="_blank">
-        <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="ALX Africa Logo" width="300">
-      </a>
-      <h2>Meet Some Learners</h2>
-<div>
-  <table border="1">
-    <table class="learner-table" boarder-"1>
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Age</th>
-        <th>Country</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>John</td>
-        <td>25</td>
-        <td>USA</td>
-      </tr>
-      <tr>
-        <td>Emily</td>
-        <td>28</td>
-        <td>Canada</td>
-      </tr>
-      <tr>
-        <td>Michael</td>
-        <td>32</td>
-        <td>Australia</td>
-      </tr>
-      <tr>
-        <td>Sophia</td>
-        <td>21</td>
-        <td>UK</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-    </article>
-
-    <aside>
-      <p>placeholder to add comment thread later</p>
-    </aside>
-  </main>
-
-  <footer>
-    <p>Made by Joy Kiama - <a href="https://joywrites4.wordpress.com" target="_blank">here</a>.</p>
-  </footer>
-
+    <div id="quiz-container">
+        <p id="quiz-question">What is 2 + 2?</p>
+        <div>
+            <input type="radio" id="choice1" name="quiz" value="4">
+            <label for="choice1">4</label><br>
+            <input type="radio" id="choice2" name="quiz" value="22">
+            <label for="choice2">22</label><br>
+            <input type="radio" id="choice3" name="quiz" value="3">
+            <label for="choice3">3</label>
+        </div>
+        <button id="submit-answer">Submit Answer</button>
+        <p id="feedback"></p>
+    </div>
+    <script src="quiz.js"></script>
 </body>
 </html>
